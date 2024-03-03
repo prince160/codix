@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <title>CodiX</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fac.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:codix241@gmail.com">codix241@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+241 077 669 241</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+          <a href="https://www.facebook.com/profile.php?id=100089360660563" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/codix_ga/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCypxycIrvPEyDrOKKBRtN_Q" class="yt"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/log.png" alt="">
+        <!-- <h1>Numerix<span>.</span></h1> -->
+      </a>
+      <div class="navbar">
+        <ul>
+          <li class="active"><a href="#hero">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Solutions</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="site.html">SEO & Site web</a></li>
+              <li><a href="app.html">Application</a></li>
+              <li><a href="vs.html">Vidéo surveillance</a></li>
+              <!-- <li><a href="formation.html">Formation</a></li> -->
+            </ul>
+          </li>
+          <li><a href="creat.html">Creations</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" class="contact-link" onclick="openRareModal(event)"><i class="bi bi-chat-dots-fill"></i> Nous contacter</a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list" style="color: #AD009C;"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+  <div id="rareContactModal" class="rare-modal-container">
+    <div class="rare-modal-content">
+      <div class="rare-modal-header">
+        <h2>Nous contacter <span class="rare-close">&times;</span></h2>
+      </div>
+      <div class="rare-modal-body">
+        <div class="rare-contact-info">
+          <p>Pour toute demande d'information ou de devis, n'hésitez pas à nous contacter :</p>
+          <p><strong> 9h00 - 12h30 / 14h00 - 17h30</strong></p>
+          <div class="rare-contact-buttons">
+            <a href="https://wa.me/24107669241" target="_blank" class="rare-contact-button"><i class="bi bi-whatsapp"></i> 07 669 241</a>
+            <a href="mailto:codix241@gmail.com" target="_blank" class="rare-contact-button"><i class="bi bi-chat-dots-fill"></i> Écrire un E-mail</a>
+          </div>
+        </div>
+        <hr>
+        <div class="rare-customer-support">
+          <p><strong>Vous êtes déjà client?</strong></p>
+          <p>Pour toute question ou assistance, contactez notre service client :</p>
+          <p><strong> 9h00 - 12h30 / 14h00 - 17h30</strong></p>
+          <a href="https://wa.me/24107669241" target="_blank" class="rare-contact-button">Contacter le service client</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Bienvenue chez <span style="color: #AD009C; font-weight: bold;">CodiX</span></h2>
+          <p>Nous sommes là pour transformer vos idées en réalité en offrant des solutions qui vous conduiront vers une mutation numérique de pointe. Notre objectif est de marquer votre présence en ligne et ainsi vous aider à accroitre vos chiffres.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="https://wa.me/24107669241" target="_blank" class="btn-get-started">Demander un devis</a>
+            <a href="https://www.youtube.com/watch?v=yvbxhSMMBrI?si=dt8yg1Ee418H5ZHt" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Voir la Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/hero.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi-lightning-fill"></i></div>
+              <h4 class="title"><a href="#" id="portfolio-link-5" class="stretched-link">Créativité express</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi-tag-fill"></i></div>
+              <h4 class="title"><a href="#" id="portfolio-link-6" class="stretched-link">Tarifs imbattables</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi-card-list"></i></div>
+              <h4 class="title"><a href="#"id="portfolio-link-7" class="stretched-link">Paiement en plusieurs fois</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi-tools"></i></div>
+              <h4 class="title"><a href="#"id="portfolio-link-8" class="stretched-link">Site web personalisé</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <div class="waouh_container">
+      <div class="waouh_block">
+        <div class="waouh_title">SITE WEB</div>
+        <div class="waouh_from-text">A partir de</div>
+        <div class="waouh_price">61 200 FCFA*</div>
+        <div class="waouh_description">Créez votre site web avec style et efficacité. Des designs modernes et une expérience utilisateur optimale.</div>
+        <img class="waouh_image" src="assets/img/web.png" alt="Image du site web">
+      </div>
+      <div class="waouh_block">
+        <div class="waouh_title">TOP DELAI</div>
+        <div class="waouh_from-text">Dès</div>
+        <div class="waouh_price">72 HEURES</div>
+        <div class="waouh_description">Obtenez votre projet finalisé rapidement sans compromis sur la qualité. Respect des délais garanti.</div>
+        <img class="waouh_image" src="assets/img/delai.png" alt="Image des délais rapides">
+      </div>
+    </div>
+
+    <div id="portfolio" class="our-portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" id="portfolio-link-1">
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                <div class="hidden-content">
+                  <h4>adaptable</h4>
+                  <p>Tous nos sites web sont conçu pour parfaitement s'adapter à tout type d'appareil</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/img/portfolio-image.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div><br>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" id="portfolio-link-2">
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                <div class="hidden-content">
+                  <h4>Coûts flexible</h4>
+                  <p>Nos prix/abonnement sont flexible afin d'offir un service personnalisé à notre clientèle</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/img/portfolio-image.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div><br>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" id="portfolio-link-3">
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="hidden-content">
+                  <h4>Large choix</h4>
+                  <p>Du site vitrine au e-commerce nos experts sont capable de proposer tout type de solution</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/img/portfolio-image.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div><br>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" id="portfolio-link-4">
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <div class="hidden-content">
+                  <h4>Data Analysis</h4>
+                  <p>Une fois hébergé nous vous fournissons des détails sur l'activité de votre site</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/img/portfolio-image.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Section Process ======= -->
+    
+    <section class="services-section-DX">
+      <div class="service-item-DX" style="background-color: #ccccff;">
+        <div class="image-container">
+          <img src="assets/img/portfolio/app-2.jpg" alt="Site Vitrine">
+        </div>
+        <h2>Site Vitrine</h2>
+        <p class="description">
+          Créez une vitrine en ligne unique avec notre service sur mesure. Nous offrons un design réactif et un référencement optimisé pour améliorer votre présence en ligne.
+        </p>
+        <a href="https://wa.me/24107669241"><button class="project-button-DX">J'ai un projet</button><br></a>
+        <ul class="offer-list-DX"><br>
+          <li><i class="bi bi-check"></i> Prototype, wiresframe, maquette...</li>
+          <li><i class="bi bi-check"></i> Site 100% personnalisé</li>
+          <li><i class="bi bi-check"></i> Nombre de pages illimité(1 à 100)</li>
+          <li><i class="bi bi-check"></i> Optimisation SEO</li>
+          <li><i class="bi bi-check"></i> Adaptable sur tout appareil</li>
+          <li><i class="bi bi-check"></i> Pages supplémentaires(contact, 404...)</li>
+          <li><i class="bi bi-check"></i> Options supplémentaires(Newsletter, formulaire)</li>
+          <li><i class="bi bi-check"></i> Performance</li>
+          <li><i class="bi bi-check"></i> Hébergement dans des serveurs sécurisés</li>
+          <li><i class="bi bi-check"></i> Nom de domaine en .com, .ga ou autre</li>
+          <li><i class="bi bi-check"></i> Sécurité du site</li>
+          <li><i class="bi bi-check"></i> Formation: Mises à jour du site</li>
+        </ul>
+      </div>
+      <div class="service-item-DX" style="background-color: #ffcccc;">
+        <div class="image-container">
+          <img src="assets/img/portfolio/app-1.jpg" alt="E-commerce">
+        </div>
+        <h2>E-commerce</h2>
+        <p class="description">
+          Développez votre boutique en ligne avec notre solution e-commerce dynamique. Du panier d'achat sécurisé à la gestion de catalogue, nous vous accompagnons à chaque étape.
+        </p>
+        <a href="https://wa.me/24107669241"><button class="project-button-DX">J'ai un projet</button><br></a>
+        <ul class="offer-list-DX"><br>
+          <li><i class="bi bi-check"></i> Création de boutique en ligne sur mesure</li>
+          <li><i class="bi bi-check"></i> Design personnalisé et attractif</li>
+          <li><i class="bi bi-check"></i> Nombre de produits illimité</li>
+          <li><i class="bi bi-check"></i> Paiement en ligne sécurisé</li>
+          <li><i class="bi bi-check"></i> Optimisation SEO (referencement google)</li>
+          <li><i class="bi bi-check"></i> Site compatible avec tous les appareils</li>
+          <li><i class="bi bi-check"></i> Gestion de panier(ajout, suppression...)</li>
+          <li><i class="bi bi-check"></i> Espace client(Commandes, historique...)</li>
+          <li><i class="bi bi-check"></i> Mot de passe oublié, reglages</li>
+          <li><i class="bi bi-check"></i> Performances optimales</li>
+          <li><i class="bi bi-check"></i> Base de données</li>
+          <li><i class="bi bi-check"></i> Hébergement sécurisé sur cloud</li>
+          <li><i class="bi bi-check"></i> Nom de domaine (.com, .net, .shop...)</li>
+          <li><i class="bi bi-check"></i> Sécurité contre les cyberattaques</li>
+          <li><i class="bi bi-check"></i> Formation à la gestion de la boutique</li>
+          <li><i class="bi bi-check"></i> Maintenance du site</li>
+          <li><i class="bi bi-check"></i> Support technique</li>
+      </ul>
+      </div>
+      <div class="service-item-DX" style="background-color: #ccffcc;">
+        <div class="image-container">
+          <img src="assets/img/portfolio/app-3.jpg" alt="Autre">
+        </div>
+        <h2>Autre</h2>
+        <p class="description">
+          Besoin de solutions personnalisées ? Notre équipe vous propose un développement sur mesure, des fonctionnalités avancées, et un support technique fiable.
+        </p>
+        <a href="https://wa.me/24107669241"><button class="project-button-DX">J'ai un projet</button><br></a>
+        <ul class="offer-list-DX"><br>
+          <li><i class="bi bi-check"></i> Protoype, wiresframe, maquette</li>
+          <li><i class="bi bi-check"></i> Site 100% personnalisé</li>
+          <li><i class="bi bi-check"></i> Nombre de pages illimité</li>
+          <li><i class="bi bi-check"></i> Site écologique</li>
+          <li><i class="bi bi-check"></i> Blog, Portfolio(images, vidéos...)</li>
+          <li><i class="bi bi-check"></i> Site gouvernemental ou scolaire</li>
+          <li><i class="bi bi-check"></i> Application web</li>
+          <li><i class="bi bi-check"></i> Analyse de performance</li>
+          <li><i class="bi bi-check"></i> Hebergement éco-responsable</li>
+          <li><i class="bi bi-check"></i> Sécurité renforcé</li>
+          <li><i class="bi bi-check"></i> Nom de domaine au choix</li>
+          <li><i class="bi bi-check"></i> E-mail professionnel</li>
+          <li><i class="bi bi-check"></i> Maintenance écologique</li>
+          <li><i class="bi bi-check"></i> Formation administrateur</li>
+          <li><i class="bi bi-check"></i> Support vert</li>
+      </ul>
+      </div>
+    </section>
+<!-- ======= Section Services Plus de NUMERIX'ART ======= -->
+<section id="services" class="services sections-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2>CODIX SERVICE <strong>PLUS</strong></h2>
+      <p>Explorez au-delà du simple développement web dans l'univers numérique. Notre gamme diversifiée de services vous accompagne dans votre transformation digitale, vous permettant de vous aligner sur les exigences du monde moderne, où le numérique est incontournable.</p>
+    </div>
+
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-globe"></i>
+          </div>
+          <h3>Marketing numérique</h3>
+          <p>Des pratiques telles que le référencement naturel (SEO), la gestion des avis en ligne, la création de profils d'entreprise sur des plateformes comme Google Maps et les réseaux sociaux, ainsi que la publicité en ligne</p>
+          <a href="site.html" class="readmore stretched-link">En savoir plus <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <h3>Design graphique</h3>
+          <p>Optez pour une visibilité moderne, dynamique et attrayante. De la conception de logo, d'une identité visuelle à la creation de brochures, emballages, carte de visites en bien plus encore... Nous vous aidons à vous demarquer</p>
+          <a href="site.html" class="readmore stretched-link">En savoir plus <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-camera-video"></i>
+          </div>
+          <h3>Video Surveillance</h3>
+          <p>Offrez-vous une sécurité avancée : caméras haute technologie connectées à distance, idéales pour particuliers et entreprises, assurant une surveillance fiable et une tranquillité d'esprit absolue. Protégez vos bien!</p>
+          <a href="vs.html" class="readmore stretched-link">En savoir plus <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+</section><!-- End Section Services Plus de NUMERIX'ART -->
+
+   
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+<!-- ======= Section des statistiques ======= -->
+<section id="stats-counter" class="stats-counter">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row gy-4 align-items-center">
+
+      <div class="col-lg-6">
+        <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
+      </div>
+
+      <div class="col-lg-6">
+
+        <div class="stats-item d-flex align-items-center">
+          <span data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Clients satisfaits</strong> en France et au Gabon</p>
+        </div><!-- Fin de l'élément des statistiques -->
+
+        <div class="stats-item d-flex align-items-center">
+          <span data-purecounter-start="0" data-purecounter-end="124" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Projets</strong> réalisés avec succès</p>
+        </div><!-- Fin de l'élément des statistiques -->
+
+        <div class="stats-item d-flex align-items-center">
+          <span data-purecounter-start="0" data-purecounter-end="348" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Heures de support</strong> dédiées à nos clients pour leur satisfaction</p>
+        </div><!-- Fin de l'élément des statistiques -->
+
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- Fin de la section des statistiques -->
+
+    <!-- ======= Section Appel à l'action ======= -->
+<section id="call-to-action" class="call-to-action">
+  <div class="container text-center" data-aos="zoom-out">
+    <a href="https://www.youtube.com/watch?v=8ctrSVfVnOI?si=TXLtDHMXMEjzuBhi" class="glightbox play-btn"></a>
+    <h3>Prêt à passer à l'action?</h3>
+    <p> Découvrez comment notre expertise peut vous aider à atteindre vos objectifs numériques. Obtenez votre devis gratuit dès aujourd'hui avec une réponse rapide.</p>
+    <a class="cta-btn" href="https://wa.me/24107669241" target="_blank">Demander un devis</a>
+  </div>
+</section><!-- Fin de la section Appel à l'action -->
+
+       <!-- ======= Section Témoignages ======= -->
+<section id="testimonials" class="testimonials">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2>Témoignages</h2>
+      <p>Découvrez ce que nos clients satisfaits ont à dire à propos de nos services.</p>
+    </div>
+
+    <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <div class="d-flex align-items-center">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Ashley Boukoye</h3>
+                  <h4>Ingénieur en sécurité</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Ayant plusieurs fois collaborer avec cette agence dans le cadre de la sécurité de systémes d'informations, ils mettent en accent particulier dans la confidentialité et l'intégrité des données de leur client. Le respect de la vie privée est leur priorité..
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- Fin de l'élément de témoignage -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <div class="d-flex align-items-center">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Freeda KONGA</h3>
+                  <h4>Ingénieur en logiciel</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                J'ai été impressionné par le professionnalisme de cette agence. Connaissant personnellement le directeur de l'agence, je peux vous assurer qu'il est digne de confiance. Je les recommande fortement !
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- Fin de l'élément de témoignage -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <div class="d-flex align-items-center">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Anaelle ERANGAH</h3>
+                  <h4>Propriétaire de magasin</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Grâce à cette entreprise, notre magasin a atteint de nouveaux sommets. Leurs stratégies marketing nous ont permis d'augmenter nos ventes de manière significative. Nous leur sommes extrêmement reconnaissants !
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- Fin de l'élément de témoignage -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <div class="d-flex align-items-center">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Tiffen NDJAMBOU</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Travailler avec cette entreprise a été une expérience formidable. Leur équipe dévouée a fait un travail remarquable et a dépassé toutes nos attentes. Je les recommande vivement à tous ceux qui ont besoin de services de qualité !
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- Fin de l'élément de témoignage -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <div class="d-flex align-items-center">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Lloyd IMOUNGA</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Les services fournis par cette entreprise sont tout simplement exceptionnels. Leur équipe est très professionnelle et compétente. Je les recommande sans hésitation à tous ceux qui recherchent une qualité supérieure.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- Fin de l'élément de témoignage -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- Fin de la section Témoignages -->
+
+    <!-- ======= Section Questions Fréquemment Posées ======= -->
+<section id="faq" class="faq">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <div class="content px-xl-5">
+          <h3><strong>F</strong>requently <strong>A</strong>sked <strong>Q</strong>uestions</h3>
+          <p>
+            Découvrez les réponses à vos interrogations les plus courantes pour mieux comprendre nos services.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+
+        <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                <span class="num">1.</span>
+                Quelle est la différence entre un site web et une application web?
+              </button>
+            </h3>
+            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                Un site web est une plateforme en ligne qui présente des informations statiques ou interactives, tandis qu'une application web est une application dynamique permettant des interactions plus avancées et souvent destinée à des tâches spécifiques.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                <span class="num">2.</span>
+                Quels services de maintenance proposez-vous pour les sites web?
+              </button>
+            </h3>
+            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                Nous offrons des services de maintenance régulière, de sauvegarde de données, de mise à jour de contenu et de sécurité pour assurer le bon fonctionnement et la sécurité de votre site web.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                <span class="num">3.</span>
+                Comment se déroule la création d'un site web avec votre entreprise?
+              </button>
+            </h3>
+            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                Notre processus de création de site web comprend une consultation initiale, la conception et le développement du site, la révision et l'approbation du client, et enfin le déploiement et la formation si nécessaire.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                <span class="num">4.</span>
+                Quels sont les avantages du référencement SEO pour mon site web?
+              </button>
+            </h3>
+            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                Le référencement SEO améliore la visibilité de votre site web sur les moteurs de recherche, augmentant ainsi le trafic organique, la crédibilité de votre entreprise et les chances de conversion des visiteurs en clients.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                <span class="num">5.</span>
+                Quelle est l'importance d'une surveillance vidéo pour la sécurité de mon entreprise?
+              </button>
+            </h3>
+            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                La surveillance vidéo permet de dissuader les intrus, de surveiller les activités en temps réel, de recueillir des preuves en cas d'incident et de protéger les employés et les biens de votre entreprise.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- Fin Section Questions Fréquemment Posées -->
+
+<!-- <div id="cookie-banner" class="cookie-banner">
+  <p>Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. En continuant à naviguer, vous acceptez notre utilisation de cookies conformément à notre <a href="/politique-de-cookies">politique de cookies</a>.</p>
+  <button id="accept-cookies-btn">D'accord</button>
+</div> -->
+
+<section class="about-low-area section-padding2">
+  <div class="container">
+      <div class="row justify-content-between">
+          <div class="col-xl-5 col-lg-6 col-md-9">
+              <!-- about-img -->
+              <div class="about-img"><br><br><br>
+                  <img src="assets/img/GP.png" alt="">
+              </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-10" style="background-color: rgb(143, 143, 135); border-radius: 10px; padding: 40px;">
+              <div class="about-caption mb-50">
+                  <!-- Section Tittle -->
+                  <div class="section-tittle mb-35">
+                      <span></span>
+                      <h2>GUIDE PRATIQUE</h2>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
+                  </div>
+                  <p style="text-align: justify; color: aliceblue;">Télechargez gratuitement notre guide pratique qui vous aidera à calibrer votre projet et mieux preparer votre demande.
+                  <br><strong>Voici les 10 questions à se poser avant de demander un devis</strong></p>
+              </div>
+              <a href="assets/GUIDE-PRATIQUE-devis.pdf" target="_blank" class="btn btn-primary" style="padding: 10px;">Telecharger <i class="bi bi-download"></i></a>
+            </div>
+      </div>
+  </div>
+</section>
+
+<div id="promoBanner" class="promo-banner">
+  <div class="promo-content">
+    <span class="close-btne" onclick="closeBanner()">❌</span>
+    <h2>🚀 Ne ratez pas cette occasion de créer votre site internet</h2>
+    <p>Découvrez notre offre spéciale pour les créateurs d'avenir et bénéficiez d'une remise exceptionnelle de <span style="font-size: 22px; font-weight: bold; font-family: 'Arial Rounded MT Bold', sans-serif;">20%</span> sur votre projet de site internet. <br> Demandez votre devis avant la fin de cette offre limitée !</p>
+    <div id="countdowne" class="countdown-container"></div>
+    <a href="#" class="btne" id="whatsappLink">J'en profite</a>
+  </div>
+</div>
+<div id="overlay"></div>
+
+  </main><!-- End #main -->
+
+
+  <div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-content">
+        <p>Ce site utilise des outils d'analyse afin d'optimiser votre parcours utilisateur. Soyez assuré(e) que nous ne stockons ni ne partageons aucune information confidentielle<br> dans ce processus. Notre objectif est de garantir une expérience agréable et sécurisée lors de votre visite sur notre site.</p>
+        <button id="accept-cookies" class="accept-cookies">OK</button>
+    </div>
+</div>
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CodiX</h3>
+            <p class="pb-3"><em>Lundi-Vendredi 10h00-16h00</em></p>
+            <p>
+              Libreville, Gabon<br><br>
+              <strong>Phone:</strong> +241 077 669 241<br>
+              <strong>Email:</strong> codix241@gmail.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://api.whatsapp.com/send?phone=24107669241" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100089360660563" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/codix_ga/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCypxycIrvPEyDrOKKBRtN_Q" class="google-plus"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Accueil</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Avis</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="assets/ML.pdf">Mentions légales</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="parrain.html">Travailler avec nous</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="parrain.html">Parrainer</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="site.html">SEO</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="site.html">Site internet</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="app.html">Application</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="vs.html">Vidéo surveillance</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="formation.html">Formation</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Notre Newsletter</h4>
+          <div class="col-lg-12 newsletter">
+              <div class="rounded-input"></div>
+              <p style="text-align: justify;">Abonnez-vous à notre newsletter pour ne pas manquer les prochaines offres et bénéficiez dès aujourd'hui d'une réduction de 10% sur votre prochain projet.</p>
+              <div class="container">
+                  <form target="_blank" action="https://formsubmit.co/codix241@gmail.com" method="POST" style="background-color: #7a3b2d;">
+                      <div class="form-group row">
+                          <div class="col" style="padding-right: 5px;">
+                              <input type="email" name="email" class="form-control" placeholder="Adresse e-mail" style="width: calc(100% - -30px); margin-left: -20px;" required>
+                          </div>
+                          <div class="col-auto">
+                              <button type="submit" class="btn btn-lg btn-dark" style="padding: 1px; background-color: #AD009C;">S'abonner</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright 2024 <strong><span>CodiX</span></strong>. All Rights Reserved
+    </div>
+    <!-- <div class="credits">
+      Designed by <a href="http://www.numerixart.ulti.eu.org/Numerix/">Codix</a>
+    </div> -->
+  </div>
+</footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/65c50ef98d261e1b5f5dedc0/1hm4s50c2';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script> -->
+  <!--End of Tawk.to Script-->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

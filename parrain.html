@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <!-- Favicons -->
+  <link href="assets/img/fac.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <title>CodiX - Collaborer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .section-content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .conditions {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section id="parrainage">
+            <h1>Parrainage</h1>
+            <div class="section-content">
+                <h2>Recommandez-nous à vos proches et gagnez des récompenses !</h2>
+                <p><strong>Comment ça marche ?</strong></p>
+                <ol>
+                    <li>Recommandez-nous: Partagez notre site avec vos amis, votre famille et vos collègues.</li>
+                    <li>Dévis: Vos recommandations demandent un dévis et nous font savoir que vous les avez dirigés vers nous.</li>
+                    <li>Gagnez des récompenses: Obtenez de l'argent ou des réductions sur nos services une fois qu'ils deviennent clients.</li>
+                </ol>
+                <a href="#" class="btn" id="inviteFriendBtn">Parrainer un proche</a>
+                <button class="btn" id="showConditions">En savoir plus</button>
+                <div class="conditions">
+                    <p><strong>Conditions :</strong></p>
+                    <ol>
+                        <li>La récompense sera accordée une fois que le client recommandé aura effectué un achat.</li>
+                        <li>La récompense est basée sur le montant total de l'achat effectué par le client recommandé.</li>
+                        <li>Le client recommandé doit mentionner le nom du parrain lors de son inscription ou de sa commande.</li>
+                        <li>Les récompenses ne sont pas transférables et n'ont pas de valeur monétaire.</li>
+                        <li>Les termes et conditions peuvent être modifiés sans préavis.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        
+        <section id="travailler-avec-nous">
+            <h1>Travailler Avec Nous</h1>
+            <div class="section-content">
+                <h2>Rejoignez notre équipe de talents !</h2>
+                <p>Êtes-vous passionné par le design web et le développement ?</p>
+                <p>Soumettez votre candidature dès maintenant en remplissant le formulaire ci-dessous :</p>
+                <form target="_blank" action="https://formsubmit.co/codix241@gmail.com" method="POST">
+                    <label for="fullname">Nom complet:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    
+                    <label for="email">Adresse e-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Téléphone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="portfolio">Portfolio (le cas échéant):</label>
+                    <input type="text" id="portfolio" name="portfolio" placeholder="https://">
+                    
+                    <label for="skills">Compétences:</label>
+                    <select id="skills" name="skills" multiple>
+                        <option value="design">Design graphique</option>
+                        <option value="development">Développement web</option>
+                        <option value="ux-ui">UX/UI</option>
+                        <option value="digital-marketing">Marketing digital</option>
+                        <option value="other">Autre</option>
+                    </select>
+                    
+                    <label for="cv">CV (fichier PDF):</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf">
+                    
+                    <br><label for="message">Message :</label>
+                    <textarea id="message" name="message"></textarea>
+                    
+                    <button type="submit">Soumettre ma candidature</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.getElementById('showConditions').addEventListener('click', function() {
+            var conditions = document.querySelector('.conditions');
+            if (conditions.style.display === 'none') {
+                conditions.style.display = 'block';
+            } else {
+                conditions.style.display = 'none';
+            }
+        });
+    
+        // Ajout de la fonctionnalité de copie du lien
+        document.getElementById('inviteFriendBtn').addEventListener('click', function() {
+            var siteLink = 'https://www.codix.ga'; // Remplacez ceci par le lien de votre site
+            var message = 'Visite dès maintenant CodiX, la meilleure agence web pour mettre votre activité en avant et générer plus de clients grâce à une meilleure présence en ligne : ' + siteLink;
+    
+            // Crée un élément textarea temporaire pour copier le texte dans le presse-papiers
+            var tempTextArea = document.createElement('textarea');
+            tempTextArea.value = message;
+            document.body.appendChild(tempTextArea);
+    
+            // Sélectionne et copie le texte dans le presse-papiers
+            tempTextArea.select();
+            document.execCommand('copy');
+    
+            // Supprime l'élément textarea temporaire
+            document.body.removeChild(tempTextArea);
+    
+            // Affiche un message à l'utilisateur
+            alert('Le lien de notre site a été copié. Vous pouvez maintenant le partager sur vos réseaux et avec vos amis !');
+        });
+    </script>
+</body>
+</html>

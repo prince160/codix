@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CodiX - Formation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fac.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:codix241@gmail.com">codix241@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+241 077 669 241</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+          <a href="https://www.facebook.com/profile.php?id=100089360660563" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/codix_ga/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCypxycIrvPEyDrOKKBRtN_Q" class="yt"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/log.png" alt="">
+        <!-- <h1>Numerix<span>.</span></h1> -->
+      </a>
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Solutions</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="site.html">SEO & Site web</a></li>
+              <li><a href="app.html">Application</a></li>
+              <li><a href="vs.html">Vidéo surveillance</a></li>
+              <!-- <li class="active"><a href="formation.html">Formation</a></li> -->
+            </ul>
+          </li>
+          <li><a href="creat.html">Creations</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" class="contact-link" onclick="openRareModal(event)"><i class="bi bi-chat-dots-fill"></i> Nous contacter</a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list" style="color: #AD009C;"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+  <div id="rareContactModal" class="rare-modal-container">
+    <div class="rare-modal-content">
+      <div class="rare-modal-header">
+        <h2>Nous contacter <span class="rare-close">&times;</span></h2>
+      </div>
+      <div class="rare-modal-body">
+        <div class="rare-contact-info">
+          <p>Pour toute demande d'information ou de devis, n'hésitez pas à nous contacter :</p>
+          <p><strong> 9h00 - 12h30 / 14h00 - 17h30</strong></p>
+          <div class="rare-contact-buttons">
+            <a href="https://wa.me/24107669241" class="rare-contact-button"><i class="bi bi-whatsapp"></i> 07 669 241</a>
+            <a href="mailto:codix241@gmail.com" class="rare-contact-button"><i class="bi bi-chat-dots-fill"></i> Écrire un E-mail</a>
+          </div>
+        </div>
+        <hr>
+        <div class="rare-customer-support">
+          <p><strong>Vous êtes déjà client?</strong></p>
+          <p>Pour toute question ou assistance, contactez notre service client :</p>
+          <p><strong> 9h00 - 12h30 / 14h00 - 17h30</strong></p>
+          <a href="https://wa.me/24107669241" class="rare-contact-button">Contacter le service client</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Formation</h2>
+              <p>Découvrez notre éventail complet de formations spécialisées dans la gestion et l'optimisation de sites web. Des programmes sur mesure conçus pour renforcer vos compétences dans la gestion de serveurs, la configuration DNS, la gestion des e-mails et la mise à jour du contenu. Explorez comment nos formations peuvent vous aider à maîtriser les outils nécessaires pour assurer le bon fonctionnement de votre site web et améliorer votre présence en ligne.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Accueil</a></li>
+            <li>Formation</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="about section-padding formation-section">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-5" style="font-size: 36px;
+              font-weight: bold;
+              color: #333;
+              text-transform: uppercase;
+              letter-spacing: 1px; ">Découvrez notre formation <span>Post-Déploiement</span></h2>
+          </div>
+              <div class="col-lg-2 col-12 mt-auto mb-auto">
+                  <div class="btn-group-vertical" role="group">
+                      <button class="btn btn-outline-primary active" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Présentation</button>
+                      <button class="btn btn-outline-primary" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="false">Ouverture</button>
+                      <button class="btn btn-outline-primary" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Compétences</button>
+                  </div>
+              </div>
+              <div class="col-lg-10 col-12">
+                  <div class="tab-content mt-2" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                          <div class="row">
+                              <div class="col-lg-7 col-12">
+                                  <img src="assets/img/form.png" class="img-fluid" alt="">
+                              </div>
+                              <div class="col-lg-5 col-12 formation-content bg-light p-4 rounded">
+                                  <div class="d-flex flex-column h-100">
+                                      <h3 class="mb-3">Maîtrisez la Gestion de Votre Site Web</h3>
+                                      <p>Découvrez notre formation complète sur la gestion de serveurs, de DNS, d'e-mails et de contenu pour optimiser votre présence en ligne.</p>
+                                      <p>Grâce à notre expertise, vous apprendrez à mettre à jour le contenu, à personnaliser le design et à assurer le bon fonctionnement de votre site web.</p>
+                                      <a href="about.html" class="btn btn-primary mt-auto">Demander un Devis <i class="bi bi-arrow-right"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+                          <div class="row">
+                              <div class="col-lg-7 col-12">
+                                  <div class="ratio ratio-16x9">
+                                      <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  </div>
+                              </div>
+                              <div class="col-lg-5 col-12 formation-content bg-light p-4 rounded">
+                                <div class="d-flex flex-column h-100">
+                                  <h3 class="mb-3">Horaires et Programmes Personnalisés</h3>
+                                  <p>Nos horaires et programmes de formation sont adaptés à chaque projet et personnalisés en fonction des besoins spécifiques de nos clients.</p>
+                                  <a href="contact.html" class="btn btn-primary mt-auto">Demander un Devis <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                          <div class="row">
+                              <div class="col-lg-7 col-12">
+                                  <img src="assets/img/form2.png" class="img-fluid" alt="">
+                              </div>
+                              <div class="col-lg-5 col-12 formation-content bg-light p-4 rounded">
+                                <div class="d-flex flex-column h-100">
+                                    <h3 class="mb-3">Acquérez des Compétences Essentielles</h3>
+                                    <p>Explorez nos programmes de formation et développez un ensemble de compétences essentielles pour réussir dans le monde numérique d'aujourd'hui.</p>
+                                    <div class="skill-thumb mt-3">
+                                        <div class="mb-3">
+                                            <h6 class="mb-1">Développement Web <span class="float-end">85%</span></h6>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h6 class="mb-1">Gestion de Projet <span class="float-end">75%</span></h6>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h6 class="mb-1">Marketing Digital <span class="float-end">80%</span></h6>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-1">Analyse de Données <span class="float-end">70%</span></h6>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div><br>
+                                    <a href="products.html" class="btn btn-primary mt-auto">Demander un Devis <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>                            
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CodiX</h3>
+            <p class="pb-3"><em>Lundi-Vendredi 10h00-16h00</em></p>
+            <p>
+              Libreville, Gabon<br><br>
+              <strong>Phone:</strong> +241 077 669 241<br>
+              <strong>Email:</strong> codix241@gmail.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://api.whatsapp.com/send?phone=24107669241" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100089360660563" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/codix_ga/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCypxycIrvPEyDrOKKBRtN_Q" class="google-plus"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Accueil</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Avis</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="assets/ML.pdf">Mentions légales</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="parrain.html">Travailler avec nous</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="parrain.html">Parrainer</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="site.html">SEO</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="site.html">Site internet</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="app.html">Application</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="vs.html">Vidéo surveillance</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="formation.html">Formation</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Notre Newsletter</h4>
+          <div class="col-lg-12 newsletter">
+              <div class="rounded-input"></div>
+              <p style="text-align: justify;">Abonnez-vous à notre newsletter pour ne pas manquer les prochaines offres et bénéficiez dès aujourd'hui d'une réduction de 10% sur votre prochain projet.</p>
+              <div class="container">
+                  <form target="_blank" action="https://formsubmit.co/codix241@gmail.com" method="POST" style="background-color: #7a3b2d;">
+                      <div class="form-group row">
+                          <div class="col" style="padding-right: 5px;">
+                              <input type="email" name="email" class="form-control" placeholder="Adresse e-mail" style="width: calc(100% - -30px); margin-left: -20px;" required>
+                          </div>
+                          <div class="col-auto">
+                              <button type="submit" class="btn btn-lg btn-dark" style="padding: 1px; background-color: #AD009C;">S'abonner</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright 2024 <strong><span>CodiX</span></strong>. All Rights Reserved
+    </div>
+    <!-- <div class="credits">
+      Designed by <a href="http://www.numerixart.ulti.eu.org/Numerix/">Codix</a>
+    </div> -->
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script>
+    var navTabs = document.querySelectorAll('.btn-group-vertical button');
+navTabs.forEach(function(tab) {
+    tab.addEventListener('click', function(event) {
+        event.preventDefault();
+        var target = document.querySelector(this.getAttribute('data-bs-target'));
+        var tabId = this.getAttribute('id');
+        var activeTab = document.querySelector('.btn-outline-primary.active');
+        var activeContent = document.querySelector('.tab-pane.fade.show.active');
+        
+        if (!target.classList.contains('active')) {
+            activeTab.classList.remove('active');
+            activeContent.classList.remove('active', 'show');
+            
+            this.classList.add('active');
+            target.classList.add('active', 'show');
+        }
+    });
+});
+</script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
